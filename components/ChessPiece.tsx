@@ -13,7 +13,7 @@ const pieceUnicode: { [key: string]: string } = {
   R: "♜",
   B: "♝",
   N: "♞",
-  P: "♟",
+  P: "♙",
 }
 
 function ChessPiece({ piece }: ChessPieceProps) {

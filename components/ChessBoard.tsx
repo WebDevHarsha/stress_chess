@@ -116,7 +116,7 @@ export default function ChessBoard() {
             ))}
           </div>
         </div>
-        <div>
+        <div className="bg-black text-white">
           <h2 className="text-xl">White Move Cards</h2>
           <div className="flex gap-2">
             {availableMoveCards.whitePieces.map((piece) => (
