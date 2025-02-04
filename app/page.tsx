@@ -1,11 +1,10 @@
-import React from 'react'
+import ChessBoard from "../components/ChessBoard"
 
-function page() {
+export default function Page() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-8 md:p-24">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-8">No Stress Chess</h1>
+      <ChessBoard />
+    </main>
   )
 }
-
-export default page
